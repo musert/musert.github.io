@@ -85,7 +85,7 @@ author:
   bio              : "Senior Member of the IEEE, Professional Member of the ACM"
   location         : "Ankara"
   employer         :
-  pubmed           : ""
+  dblp             : "https://dblp.uni-trier.de/pid/97/6776.html"
   googlescholar    : "https://scholar.google.com/citations?user=dkad8cUAAAAJ&hl=en"
   email            : "msert@baskent.edu.tr"
   researchgate     : "https://www.researchgate.net/profile/Mustafa-Sert-2" # example: "https://www.researchgate.net/profile/Mustafa-Sert-2"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
