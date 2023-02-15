@@ -1,18 +1,10 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  name        : "Mustafa Sert"
+  uri         : "baskent.edu.tr/~msert"
+  email       : "msert@baskent.edu.tr"
+  bio         : "I am an Associate Professor in the Department of Computer Engineering at Başkent University. I have research and teaching interests in theory and applications of audio signal processing, machine learning, computer vision, and content modeling for multimedia search and retrieval. My current research interests include deep learning, computational audio analysis, speech processing, acoustic pattern recognition, audio-video content understanding, and multimodality (research). I served as the department vice-chairman (2008-2012) and as a faculty administrative board member of the Engineering Faculty (2008-2021). I have been serving as an administrative board member of the distance education center (BUZEM) (2011-), board member of the Engineering Faculty (2021-), Kazan Vocational School (2018-), and Anadolu O.S.B. Vocational School (2020-2021). I serve in technical reviewing and organization committees of several international conferences including IEEE ICME (2019-), VLDB 2012, FUZZ-IEEE (2015-), IEEE ISM (2008-), FQAS 2009, IEEE ICSC (2016-), IEEE BigMM (2016), and ACM MM (2019-). I'm also a reviewer of the IEEE&ACM TASLP, IEEE SPL, Springer MTAP, Springer SIVP, IEEE TII, IEEE Access, IEEE TFS, and IEEE Trans. Multimedia."
+  avatar      : "profile.png"
+  twitter     : ""
+  google_plus : ""
