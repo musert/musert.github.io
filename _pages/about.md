@@ -15,7 +15,7 @@ We study the integration of multiple modalities—such as **text**, **audio**, a
 
 ## Bio
 
-Mustafa Sert is currently a [Senior Research Scholar](https://faculty.sites.uci.edu/msert/research/) in the Department of Electrical Engineering and Computer Science at the University of California, Irvine, while also holding the position of Associate Professor of Computer Engineering in the Department of Computer Engineering at Başkent University. His research and teaching interests lie in the areas of **audio signal processing**, **machine learning**, **semantic multimedia**, and **software engineering (SWE)**. In particular, his expertise includes **deep learning**, **language-based audio analysis**, **speech processing**, **acoustic pattern recognition**, **audio-video content understanding**, and **multimodal analysis** ([research](https://faculty.sites.uci.edu/msert/research/)).
+Mustafa Sert is currently a <a href="https://faculty.sites.uci.edu/msert/research/" class="no-underline">Senior Research Scholar</a> in the Department of Electrical Engineering and Computer Science at the University of California, Irvine, while also holding the position of Associate Professor of Computer Engineering in the Department of Computer Engineering at Başkent University. His research and teaching interests lie in the areas of **audio signal processing**, **machine learning**, **semantic multimedia**, and **software engineering (SWE)**. In particular, his expertise includes **deep learning**, **language-based audio analysis**, **speech processing**, **acoustic pattern recognition**, **audio-video content understanding**, and **multimodal analysis** (<a href="https://faculty.sites.uci.edu/msert/research/" class="no-underline">Research</a>).
 
 Mustafa Sert is currently the Vice Dean of the Faculty of Engineering at Başkent University. He has been an administrative board member of the **Distance Education Center (BUZEM)** since 2011 and a board member of the **Faculty of Engineering** since 2021. He previously served as the **Vice-Chairman of the Department of Computer Engineering (2008–2012)**, a faculty administrative board member of the **Faculty of Engineering (2008–2021)**, and as a board member of **Kazan Vocational School (2018–2022)** and **Anadolu O.S.B. Vocational School (2020–2021)**.
 
@@ -35,9 +35,9 @@ Dr. Sert has received recognitions for his contributions to academia, including 
 
 ## Professional Experience
 
-- **2024–present**: [Senior Research Scholar](https://faculty.sites.uci.edu/msert/research/) , Department of Electrical Engineering and Computer Science, University of California, Irvine, CA 92697 USA
-- **2023–present**: [Vice Dean](https://muh.baskent.edu.tr/kw/menu_icerik.php?birim=504&menu_id=3), Faculty of Engineering, Başkent University, Ankara, 06790 Turkey
-- **2020–present**: [Associate Professor](https://baskent.edu.tr/~msert/), Department of Computer Engineering, Başkent University, Ankara, 06790 Turkey
+- **2024–present**: <a href="https://faculty.sites.uci.edu/msert/research/" class="no-underline">Senior Research Scholar</a>, Department of Electrical Engineering and Computer Science, University of California, Irvine, CA 92697 USA
+- **2023–present**: <a href="https://muh.baskent.edu.tr/kw/menu_icerik.php?birim=504&menu_id=3" class="no-underline">Vice Dean</a>, Faculty of Engineering, Başkent University, Ankara, 06790 Turkey
+- **2020–present**: <a href="https://baskent.edu.tr/~msert/" class="no-underline">Associate Professor</a>, Department of Computer Engineering, Başkent University, Ankara, 06790 Turkey
 - **2015–present**: Member of the Faculty Board, Department of Computer Engineering, Başkent University, Ankara, 06790 Turkey
 - **2006–2020**: Assistant Professor, Department of Computer Engineering, Başkent University, Ankara, 06790 Turkey
 - **Aug 2008–Feb 2012**: Member of the Faculty Administrative Board, Faculty of Engineering, Başkent University, Ankara, 06790 Turkey
