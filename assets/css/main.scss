@@ -39,3 +39,12 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Remove underline from the specific "Senior Research Scholar" link */
+a.no-underline {
+    text-decoration: none;  /* Removes underline */
+}
+
+a.no-underline:hover {
+    text-decoration: underline;  /* Optional: Underline on hover */
+}
