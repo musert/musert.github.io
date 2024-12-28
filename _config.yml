@@ -87,7 +87,7 @@ author:
   employer         :
   dblp             : "https://dblp.uni-trier.de/pid/97/6776.html"
   googlescholar    : "https://scholar.google.com/citations?user=dkad8cUAAAAJ&hl=en"
-  email            : "msert@baskent.edu.tr"
+  email            : "msert@uci.edu"
   researchgate     : "https://www.researchgate.net/profile/Mustafa-Sert-2" # example: "https://www.researchgate.net/profile/Mustafa-Sert-2"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  #twitter          : ""
   vine             :
   weibo            :
   xing             :
