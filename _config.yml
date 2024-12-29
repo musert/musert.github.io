@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Mustafa Sert"
   avatar           : "profile.png"
-  bio              : "Senior Member of the IEEE; TC member of the IEEE CTSoc <a href="https://ctsoc.ieee.org/technical/technical-committees/avs-tc.html?view=article&id=302:avs-tc-members&catid=21" class="no-underline">AVS</a>, <a href="https://ctsoc.ieee.org/technical/technical-committees/mda-tc.html?view=article&id=310:mda-tc-members&catid=21" class="no-underline">MDA</a>, and <a href="https://ctsoc.ieee.org/technical/technical-committees.html?view=article&id=304:ccn-tc-members&catid=21" class="no-underline">CCN</a>; Professional Member of the ACM"
+  bio              : "Senior Member of the IEEE; TC member of the IEEE CTSoc <a href='https://ctsoc.ieee.org/technical/technical-committees/avs-tc.html?view=article&id=302:avs-tc-members&catid=21' class='no-underline'>AVS</a>, <a href='https://ctsoc.ieee.org/technical/technical-committees/mda-tc.html?view=article&id=310:mda-tc-members&catid=21' class='no-underline'>MDA</a>, and <a href='https://ctsoc.ieee.org/technical/technical-committees.html?view=article&id=304:ccn-tc-members&catid=21' class='no-underline'>CCN</a>; Professional Member of the ACM"
+
   location         : "Ankara"
   employer         :
   dblp             : "https://dblp.uni-trier.de/pid/97/6776.html"
