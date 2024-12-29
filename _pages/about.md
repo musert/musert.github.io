@@ -60,10 +60,10 @@ Dr. Sert has received recognitions for his contributions to academia, including 
 
 ## Awards and Honors
 
-- **Outstanding Area Chair Award**, ACM Multimedia, 2024, Melbourne, Australia
-- **Outstanding Reviewer Award**, IEEE International Conference on Multimedia and Expo (IEEE ICME), 2021, Shenzhen, China
-- **Best Paper Award**, 7th Eurasian Congress on Emergency Medicine, 2021
-- **Outstanding Reviewer Award**, IEEE International Conference on Multimedia and Expo (IEEE ICME), 2020, London, United Kingdom
+- **Outstanding Area Chair** award, ACM Multimedia, 2024, Melbourne, Australia
+- **Outstanding Reviewer** award, IEEE International Conference on Multimedia and Expo (IEEE ICME), 2021, Shenzhen, China
+- **Best Paper** award, 7th Eurasian Congress on Emergency Medicine, 2021
+- **Outstanding Reviewer** award, IEEE International Conference on Multimedia and Expo (IEEE ICME), 2020, London, United Kingdom
 - Research project with grant number **109E014** selected and published in the "Success Stories Booklet" of **TUBITAK** Academic Research Funding Programs Directorate (ARDEB), 2015
 - **Oracle Training Certificates** in SQL, SQL*Plus, PL/SQL, Developer 2000, and more, Oracle Training Center, 1997
 
