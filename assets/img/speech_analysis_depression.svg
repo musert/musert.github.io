@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .card { fill:#ffffff; stroke:#cbd5e1; stroke-width:2.2; }
+      .block { fill:#dbeafe; stroke:#2563eb; stroke-width:2.4; }
+      .feature { fill:#ecfdf5; stroke:#16a34a; stroke-width:2.4; }
+      .model { fill:#fff7ed; stroke:#ea580c; stroke-width:2.4; }
+      .output { fill:#f8fafc; stroke:#475569; stroke-width:2.3; }
+      .label { font-family:Arial, Helvetica, sans-serif; font-size:31px; font-weight:700; fill:#0f172a; text-anchor:middle; dominant-baseline:middle; }
+      .small { font-family:Arial, Helvetica, sans-serif; font-size:21px; fill:#334155; text-anchor:middle; dominant-baseline:middle; }
+      .tiny { font-family:Arial, Helvetica, sans-serif; font-size:17px; fill:#475569; text-anchor:middle; dominant-baseline:middle; }
+      .math { font-family:Georgia, "Times New Roman", serif; font-size:31px; fill:#0f172a; font-style:italic; text-anchor:middle; dominant-baseline:middle; }
+      .arrow { stroke:#475569; stroke-width:3.4; fill:none; marker-end:url(#arrowhead); }
+      .wave { stroke:#2563eb; stroke-width:5.0; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .wave2 { stroke:#7c3aed; stroke-width:3.8; fill:none; stroke-linecap:round; stroke-linejoin:round; opacity:.75; }
+      .grid { stroke:#e2e8f0; stroke-width:1.2; }
+      .bar1 { fill:#93c5fd; }
+      .bar2 { fill:#60a5fa; }
+      .bar3 { fill:#2563eb; }
+    </style>
+    <marker id="arrowhead" markerWidth="13" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0,13 5,0 10" fill="#475569"/>
+    </marker>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- transparent background -->
+
+  <g filter="url(#shadow)">
+    <!-- centered top waveform card -->
+    <rect class="card" x="430" y="70" width="740" height="250" rx="30"/>
+
+    <!-- pipeline blocks -->
+    <rect class="block" x="120" y="445" width="360" height="150" rx="26"/>
+    <rect class="feature" x="620" y="445" width="410" height="150" rx="26"/>
+    <rect class="model" x="1190" y="445" width="315" height="150" rx="26"/>
+
+    <!-- supporting visuals -->
+    <rect class="card" x="170" y="645" width="250" height="135" rx="22"/>
+    <rect class="card" x="700" y="645" width="250" height="135" rx="22"/>
+    <rect class="output" x="1135" y="655" width="420" height="125" rx="24"/>
+  </g>
+
+  <!-- centered top waveform panel -->
+  <text class="label" x="800" y="118">Speech waveform</text>
+  <text class="small" x="800" y="156">voice recording</text>
+
+  <path class="wave" d="
+    M560 235
+    C575 235,579 196,594 196
+    C612 196,613 272,631 272
+    C652 272,653 180,674 180
+    C697 180,697 294,720 294
+    C746 294,746 166,771 166
+    C797 166,797 288,823 288
+    C848 288,849 205,874 205
+    C897 205,897 258,920 258
+    C942 258,942 216,964 216
+    C986 216,986 249,1008 249
+    C1030 249,1030 226,1052 226
+    C1074 226,1074 241,1096 241" />
+  <path class="wave2" d="
+    M560 255
+    C578 255,578 230,596 230
+    C614 230,614 267,632 267
+    C650 267,650 219,668 219
+    C686 219,686 275,704 275
+    C722 275,722 224,740 224
+    C758 224,758 260,776 260
+    C794 260,794 236,812 236
+    C830 236,848 236,866 236" />
+
+  <!-- pipeline blocks -->
+  <text class="label" x="300" y="490">Preprocessing</text>
+  <text class="label" x="300" y="528">&amp; Segmentation</text>
+  <text class="small" x="300" y="568">temporal windows</text>
+
+  <text class="label" x="825" y="485">Feature Extraction</text>
+  <text class="small" x="825" y="528">prosodic, spectral,</text>
+  <text class="small" x="825" y="560">and deep audio features</text>
+
+  <text class="label" x="1347" y="485">Machine Learning</text>
+  <text class="small" x="1347" y="528">SVM / CNN / LSTM</text>
+  <text class="small" x="1347" y="560">classification model</text>
+
+  <!-- temporal segmentation mini plot -->
+  <line class="grid" x1="195" y1="735" x2="395" y2="735"/>
+  <line class="grid" x1="195" y1="690" x2="395" y2="690"/>
+  <path class="wave" d="M200 740 L210 738 L218 707 L226 736 L240 735 L248 670 L256 735 L270 737 L278 688 L286 735 L300 737 L310 658 L320 735 L335 737 L345 685 L355 735 L375 735"/>
+  <text class="tiny" x="295" y="765">segmented peaks</text>
+
+  <!-- feature mini visuals -->
+  <rect class="bar1" x="740" y="715" width="25" height="35" rx="4"/>
+  <rect class="bar2" x="778" y="695" width="25" height="55" rx="4"/>
+  <rect class="bar3" x="816" y="670" width="25" height="80" rx="4"/>
+  <rect class="bar2" x="854" y="704" width="25" height="46" rx="4"/>
+  <rect class="bar1" x="892" y="726" width="25" height="24" rx="4"/>
+  <line x1="728" y1="751" x2="930" y2="751" stroke="#0f172a" stroke-width="2.8"/>
+  <text class="tiny" x="825" y="765">feature vector</text>
+
+  <!-- prediction function -->
+  <text class="math" x="1345" y="700">f : Rⁿ → R</text>
+  <text class="small" x="1345" y="738">or</text>
+  <text class="math" x="1345" y="764">f : Rⁿ → {1,…,k}</text>
+
+  <!-- arrows -->
+  <path class="arrow" d="M800 320 C800 380 300 382 300 445"/>
+  <path class="arrow" d="M480 520 H620"/>
+  <path class="arrow" d="M1030 520 H1190"/>
+  <path class="arrow" d="M1347 595 V655"/>
+
+  <!-- soft links from blocks to support visuals -->
+  <path class="arrow" d="M300 595 V645" style="stroke-width:2.7;"/>
+  <path class="arrow" d="M825 595 V645" style="stroke-width:2.7;"/>
+</svg>

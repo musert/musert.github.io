@@ -1,0 +1,7 @@
+# Local/private files
+private_original_visuals/
+tools/
+assets/data/
+*_original.png
+.DS_Store
+__pycache__/
