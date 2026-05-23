@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1e293b; stroke-width: 2.4; }
+      .noise { fill: #fff7ed; stroke: #ea580c; stroke-width: 2.4; }
+      .enc { fill: #eef2ff; stroke: #2563eb; stroke-width: 2.4; }
+      .latent { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2.4; }
+      .dec { fill: #ecfdf5; stroke: #16a34a; stroke-width: 2.4; }
+      .loss { fill: #f8fafc; stroke: #64748b; stroke-width: 2.4; }
+
+      .label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        fill: #0f172a;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .math {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 29px;
+        font-style: italic;
+        fill: #0f172a;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .small {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        fill: #334155;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .arrow {
+        stroke: #475569;
+        stroke-width: 3.1;
+        fill: none;
+        marker-end: url(#arrowhead);
+      }
+      .wave-clean {
+        stroke: #2563eb;
+        stroke-width: 4.2;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .wave-noise {
+        stroke: #ea580c;
+        stroke-width: 3.6;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .wave-noisy {
+        stroke: #7c3aed;
+        stroke-width: 4.0;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .wave-recon {
+        stroke: #16a34a;
+        stroke-width: 4.2;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .faint { opacity: 0.65; }
+    </style>
+
+    <marker id="arrowhead" markerWidth="13" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 13 5, 0 10" fill="#475569"/>
+    </marker>
+
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- transparent background intentionally omitted -->
+
+  <!-- Geometry constants:
+       top y=100, bottom y=320, block h=135, arrow center top=167.5, bottom=387.5
+  -->
+
+  <g filter="url(#shadow)">
+    <!-- Top row -->
+    <rect class="box"    x="70"   y="100" width="240" height="135" rx="22"/>
+    <rect class="noise"  x="390"  y="100" width="310" height="135" rx="22"/>
+    <rect class="noise"  x="780"  y="100" width="240" height="135" rx="22"/>
+    <rect class="enc"    x="1100" y="100" width="240" height="135" rx="22"/>
+
+    <!-- Bottom row -->
+    <rect class="loss"   x="70"   y="320" width="240" height="135" rx="22"/>
+    <rect class="box"    x="390"  y="320" width="310" height="135" rx="22"/>
+    <rect class="dec"    x="780"  y="320" width="240" height="135" rx="22"/>
+    <rect class="latent" x="1100" y="320" width="240" height="135" rx="22"/>
+  </g>
+
+  <!-- Clean input -->
+  <text class="label" x="190" y="134">Clean Input</text>
+  <text class="math"  x="190" y="169">x</text>
+  <path class="wave-clean" d="
+    M112 202
+    C119 202, 121 190, 128 190
+    C137 190, 137 214, 146 214
+    C157 214, 157 181, 168 181
+    C181 181, 181 224, 194 224
+    C208 224, 208 176, 221 176
+    C234 176, 234 220, 246 220
+    C257 220, 257 192, 268 192"/>
+
+  <!-- Add hybrid noise -->
+  <text class="label" x="545" y="128">Add Hybrid Noise</text>
+  <text class="label" x="545" y="162">Perturbation</text>
+  <text class="small" x="545" y="216">white + pink + brown</text>
+
+  <path class="wave-noise" d="
+    M425 190 L433 182 L441 202 L449 176 L457 205 L465 187 L473 199 L481 178
+    L489 208 L497 184 L505 197"/>
+  <path class="wave-noise faint" d="
+    M525 192
+    C538 177, 551 181, 564 194
+    C577 209, 590 205, 603 188
+    C616 174, 629 184, 642 199"/>
+  <path class="wave-noise faint" d="
+    M645 197
+    C660 166, 675 171, 690 191
+    C705 215, 720 211, 735 185"/>
+
+  <!-- Noisy input -->
+  <text class="label" x="900" y="134">Noisy Input</text>
+  <text class="math"  x="900" y="169">x̃</text>
+  <path class="wave-noisy" d="
+    M817 202
+    C825 181, 833 217, 841 198
+    C850 169, 859 228, 868 206
+    C877 191, 885 183, 894 213
+    C903 236, 912 168, 921 198
+    C930 220, 939 184, 948 213
+    C957 232, 966 176, 976 193
+    C984 178, 990 211, 996 202"/>
+
+  <!-- Encoder -->
+  <text class="label" x="1220" y="168">Encoder</text>
+
+  <!-- Loss -->
+  <text class="label" x="190" y="354">Loss</text>
+  <text class="math"  x="190" y="397">||x − x̂||²</text>
+
+  <!-- Reconstructed output -->
+  <text class="label" x="545" y="348">Reconstructed</text>
+  <text class="label" x="545" y="382">Output</text>
+  <text class="math"  x="545" y="415">x̂</text>
+  <path class="wave-recon" d="
+    M430 430
+    C438 430, 440 418, 448 418
+    C458 418, 458 441, 468 441
+    C480 441, 480 409, 491 409
+    C504 409, 504 448, 517 448
+    C531 448, 531 404, 544 404
+    C557 404, 557 444, 570 444
+    C582 444, 582 416, 594 416
+    C603 416, 604 430, 612 430
+    C626 430, 640 430, 654 430"/>
+
+  <!-- Decoder -->
+  <text class="label" x="900" y="388">Decoder</text>
+
+  <!-- Latent code -->
+  <text class="label" x="1220" y="354">Latent Code</text>
+  <text class="math"  x="1220" y="397">z</text>
+
+  <!-- Arrows: strictly centered and aligned -->
+  <path class="arrow" d="M310 167.5 H390"/>
+  <path class="arrow" d="M700 167.5 H780"/>
+  <path class="arrow" d="M1020 167.5 H1100"/>
+  <path class="arrow" d="M1220 235 V320"/>
+  <path class="arrow" d="M1100 387.5 H1020"/>
+  <path class="arrow" d="M780 387.5 H700"/>
+  <path class="arrow" d="M390 387.5 H310"/>
+</svg>
